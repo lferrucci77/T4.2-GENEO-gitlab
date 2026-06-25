@@ -1,0 +1,9 @@
+numpy
+scipy
+fastapi>=0.100
+uvicorn
+python-multipart
+pydantic>=2
+requests
+minio
+confluent-kafka
