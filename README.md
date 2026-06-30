@@ -281,7 +281,7 @@ Typical `500` error example:
 
 ```json
 {
-  "detail": "Level-2 optimization failed during the initial training with trust-constr status 4: Constraint violation"
+  "detail": "optimization failed during the initial training with trust-constr status 4: Constraint violation"
 }
 ```
 
@@ -307,4 +307,4 @@ geneo_plots_optimized/<experiment_name__hash>/<request_index_or_unico_n>/
 
 Standalone runs use `unico_<n>` directories. Continual-learning runs use numeric request directories such as `1`, `2`, `3`, and so on.
 
-NB: Kafka message ingestion exists, but the current Kafka worker does not yet call the numerical GENEO core or publish explanations. The FastAPI `POST /analyze` path is the current execution path for full GENEO analysis.
+NB: The FastAPI `POST /analyze` path is the current execution path for full GENEO analysis.
