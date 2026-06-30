@@ -1,6 +1,6 @@
 ﻿# Continual GENEOS (UNIPI)
 
-# GENEO Siemens Service
+# GENEO Service
 
 GENEOs are a tool to reduce the invariance of persistence diagrams in Topological Data Analysis. Their use was later extended to machine
 learning, since they are particularly useful for approximating observers and decomposing neural networks. GENEOs can be combined through
